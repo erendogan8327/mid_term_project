@@ -1,197 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Team E</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-icons.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Team-b project</title>
 </head>
-<body class="stretched">
-    <div id="wrapper" class="clearfix">
-        <div id="top-bar" class="transparent-topbar">
-            <div class="container clearfix">
-                <div class="col_half nobottommargin clearfix">
-                    <div class="top-links">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="faqs.html">FAQs</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="#"><img src="demos/seo/images/flags/eng.png" alt="Lang">Eng</a>
-                                <ul>
-                                    <li><a href="#"><img src="demos/seo/images/flags/fre.png" alt="Lang">Fre</a></li>
-                                    <li><a href="#"><img src="demos/seo/images/flags/ara.png" alt="Lang">Ara</a></li>
-                                    <li><a href="#"><img src="demos/seo/images/flags/tha.png" alt="Lang">Tha</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
+
+<body>
+    <!-- start of the header -->
+    <header class="header mb-5">
+        <div class="container">
+            <div class="upper-bar navbar navbar-expand mr-auto">
+                <div class="links">
+                    <ul class="navbar-nav text-uppercase">
+                        <li class="nav-item "><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item ml-3"><a class="nav-link" href="#">FAqs</a></li>
+                        <li class="nav-item ml-3"><a class="nav-link" href="#">contact</a></li>
+                        <li class="nav-item ml-3 dropdown">
+                            <a class="new-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="images/eng.png" alt="english-language"> Eng
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">
+                                    <img src="images/fre.png"> Fr
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <img src="images/ara.png"> ara
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <img src="images/tha.png"> tha
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div> <!-- .upper-bar -->
+                <!-- social media icons  -->
+                <div class="social ml-auto">
+                    <a class="mr-4" href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a class="mr-4" href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a class="mr-4" href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+
+                    <a class="mr-4" href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a class="mr-4" href="#">
+                        <i class="fa fa-phone"></i>
+                    </a>
+                    <a class="mr-4" href="#">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+
+                </div> <!--  .social -->
+            </div>
+            <!-- Start of the navbar  -->
+            <nav class="navbar navbar-expand-lg main-navbar navbar-light">
+                <a class="navbar-brand mr-auto" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                What We Do
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+
+                        <button class="ml-4 btn my-2 my-sm-0" type="submit">Get Started</button>
+                    </form>
                 </div>
-                <div class="col_half fright dark col_last clearfix nobottommargin">
-                    <div id="top-social">
-                        <ul>
-                            <li><a href="http://facebook.com/semicolonweb" class="si-facebook" target="_blank"><span
-                                        class="ts-icon"><i class="icon-facebook"></i></span><span
-                                        class="ts-text">Facebook</span></a></li>
-                            <li><a href="http://twitter.com/__semicolon" class="si-twitter" target="_blank"><span
-                                        class="ts-icon"><i class="icon-twitter"></i></span><span
-                                        class="ts-text">Twitter</span></a></li>
-                            <li><a href="http://youtube.com/semicolonweb" class="si-youtube" target="_blank"><span
-                                        class="ts-icon"><i class="icon-youtube"></i></span><span
-                                        class="ts-text">Youtube</span></a></li>
-                            <li><a href="http://instagram.com/semicolonweb" class="si-instagram" target="_blank"><span
-                                        class="ts-icon"><i class="icon-instagram2"></i></span><span
-                                        class="ts-text">Instagram</span></a></li>
-                            <li><a href="tel:+10.11.85412542" class="si-call"><span class="ts-icon"><i
-                                            class="icon-call"></i></span><span
-                                        class="ts-text">+10.11.85412542</span></a></li>
-                            <li><a href="http://themes.semicolonweb.com/cdn-cgi/l/email-protection#f1989f979eb192909f879082df929e9c"
-                                    class="si-email3"><span class="ts-icon"><i
-                                            class="icon-envelope-alt"></i></span><span class="ts-text"><span
-                                            class="__cf_email__"
-                                            data-cfemail="254c4b434a6546444b5344560b464a48">[email&#160;protected]</span></span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            </nav>
+            <!-- End of the Navbar  -->
+            <div class="home mt-3">
+                <h6><span>SEO Ready</span></h6>
+                <h2 class="h1 mt-5">Improve your SEO with Data.</h2>
+                <p class="mt-5"> &ndash; Boost your own <span>Beautiful</span> Website.</p>
+                <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente provident doloremque
+                    excepturi
+                    aliquid.
+
+                </p>
+                <button class="main-btn ml-4 mt-4 btn my-2 my-sm-0" type="submit">Get Started</button>
+                <button class="ml-4 mt-4 btn my-2 my-sm-0" type="submit">Contact Us</button>
+            </div> <!-- .home -->
+
+        </div> <!-- .container of the heaader -->
+    </header>
+
+    <!--end of the header -->
+
+    <!-- Start of the sponsers Section  -->
+    <section class="sponsers">
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col mt-2"><img src="images/linkedin.svg"></div>
+                <div class="col"><img src="images/nat-geo.svg"></div>
+                <div class="col mt-2"><img src="images/jetblue.svg"></div>
+                <div class="col mt-2"><img src="images/zillow.svg"></div>
+                <div class="col mt-3"><img src="images/amazon.svg"></div>
+                <div class="col mt-2"><img src="images/linkedin.svg"></div>
             </div>
         </div>
-        <header id="header" class="transparent-header floating-header clearfix">
-            <div id="header-wrap">
-                <div class="container clearfix">
-                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
-                    <div id="logo">
-                        <a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img
-                                src="images/logo.png" alt="Canvas Logo"></a>
-                        <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img
-                                src="images/logo%402x.png" alt="Canvas Logo"></a>
-                    </div>
-                    <nav id="primary-menu" class="with-arrows">
-                        <ul>
-                            <li class="current"><a href="#">
-                                    <div>Home</div>
-                                </a></li>
-                            <li><a href="#">
-                                    <div>What We Do</div>
-                                </a>
-                                <ul>
-                                    <li><a href="#">
-                                            <div>Sub Menu 1</div>
-                                        </a></li>
-                                    <li><a href="#">
-                                            <div>Sub Menu 2</div>
-                                        </a></li>
-                                    <li><a href="#">
-                                            <div>Sub Menu 3</div>
-                                        </a></li>
-                                    <li><a href="#">
-                                            <div>Sub Menu 4</div>
-                                        </a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">
-                                    <div>Services</div>
-                                </a></li>
-                            <li><a href="#">
-                                    <div>FAQs</div>
-                                </a></li>
-                            <li><a href="#">
-                                    <div>Contact</div>
-                                </a></li>
-                        </ul>
-
-                        <div id="top-search" class="fleft">
-                            <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i
-                                    class="icon-line-cross"></i></a>
-                            <form action="http://themes.semicolonweb.com/html/canvas/search.html" method="get">
-                                <input type="text" name="q" class="form-control" value=""
-                                    placeholder="Type &amp; Hit Enter..">
-                            </form>
-                        </div>
-
-                        <a href="#" class="button button-rounded fright leftmargin-sm">Get Started</a>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <section id="slider" class="slider-element slider-parallax full-screen clearfix"
-            style="background: #FFF url('demos/seo/images/hero/hero-1.jpg') center center no-repeat; background-size: cover;">
-            <div class="vertical-middle">
-                <div class="container topmargin-sm">
-                    <div class="row">
-                        <div class="col-lg-5 col-md-8">
-                            <div class="slider-title">
-                                <div class="badge badge-pill badge-default">SEO Ready</div>
-                                <h2>Improve your SEO with Data.</h2>
-                                <h3 class="text-rotater mb-2" data-separator="," data-rotate="fadeIn" data-speed="3500">
-                                    - Boost your own <span class="t-rotate">Awesome,Beautiful,Great</span> Website.</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vitae mollitia
-                                    dignissimos ab qui aspernatur.</p>
-                                <a href="#" class="button button-rounded button-large nott ls0">Get Started</a>
-                                <a href="#"
-                                    class="button button-rounded button-large button-light text-dark bg-white border nott ls0">Contact
-                                    Us</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="video-wrap h-100 d-block d-lg-none">
-                <div class="video-overlay" style="background: rgba(255,255,255,0.85);"></div>
-            </div>
-        </section>
-        <section id="content">
-            <div class="content-wrap pt-0">
-                <div class="section nobg m-0 border-bottom py-5">
-                    <div class="container">
-                        <div id="oc-clients" class="owl-carousel image-carousel carousel-widget" data-margin="100"
-                            data-loop="true" data-autoplay="5000" data-nav="false" data-pagi="false" data-items-xs="2"
-                            data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6">
-                            <div class="oc-item"><a href="#"><img src="demos/business/images/clients/linkedin.svg"
-                                        alt="Brands"></a></div>
-                            <div class="oc-item"><a href="#"><img src="demos/business/images/clients/nat-geo.svg"
-                                        alt="Brands"></a></div>
-                            <div class="oc-item"><a href="#"><img src="demos/business/images/clients/jetblue.svg"
-                                        alt="Brands"></a></div>
-                            <div class="oc-item"><a href="#"><img src="demos/business/images/clients/zillow.svg"
-                                        alt="Brands"></a></div>
-                            <div class="oc-item"><a href="#"><img src="demos/business/images/clients/amazon.svg"
-                                        alt="Brands"></a></div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-        <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js">
-        </script>
-        <script src="js/jquery.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/functions.js"></script>
-        <script>
-            //Pricing Table Script
-            jQuery(document).ready(function ($) {
-                function pricingSwitcher(elementCheck, elementParent, elementPricing) {
-                    elementParent.find('.pts-left,.pts-right').removeClass('pts-switch-active');
-                    elementPricing.find('.pts-switch-content-left,.pts-switch-content-right').addClass(
-                        'hidden');
-
-                    if (elementCheck.filter(':checked').length > 0) {
-                        elementParent.find('.pts-right').addClass('pts-switch-active');
-                        elementPricing.find('.pts-switch-content-right').removeClass('hidden');
-                    } else {
-                        elementParent.find('.pts-left').addClass('pts-switch-active');
-                        elementPricing.find('.pts-switch-content-left').removeClass('hidden');
-                    }
-                }
-                $('.pts-switcher').each(function () {
-                    var element = $(this),
-                        elementCheck = element.find(':checkbox'),
-                        elementParent = $(this).parents('.pricing-tenure-switcher'),
-                        elementPricing = $(elementParent.attr('data-container'));
-
-                    pricingSwitcher(elementCheck, elementParent, elementPricing);
-
-                    elementCheck.on('change', function () {
-                        pricingSwitcher(elementCheck, elementParent, elementPricing);
-                    });
-                });
-            });
-        </script>
-</body>
-</html>
+        <hr />
+    </section>

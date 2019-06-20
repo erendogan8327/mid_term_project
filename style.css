@@ -1,0 +1,89 @@
+.header{
+  min-height: 900px;
+  background: url('images/main_page.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+/* Start styling the upperbar  */
+.upper-bar{
+  color: #000;
+  max-height: 40px;
+  font-size: 0.9em;
+  line-height: 35px;
+}
+.upper-bar .nav-item.dropdown{
+  padding-top: 0.4em;
+}
+.upper-bar img{
+  width: 20px;
+  
+}
+.upper-bar a {
+  color: #000;
+  font-weight: bold;
+  
+}
+.upper-bar a:hover {
+text-decoration: none;
+  
+}
+.main-navbar.navbar-light{
+  background-color: #fff;
+  border: 1px solid #d7d7d7;
+  box-shadow: 0 1px 15px #d7d7d7;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link:hover{
+  color: #FE9A04;
+}
+.navbar-light .navbar-nav .nav-link{
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.main-btn, .navbar-light .btn{
+  background-color: #FE9A04;
+  color: #fff;
+  font-size: 0.9em;
+  transition: all 0.3s ease-in-out;
+}
+.main-btn:hover, .navbar-light .btn:hover{
+  background-color:  #fff;
+  border: 1px solid #FE9A04;;
+  color:#FE9A04;
+  font-size: 0.9em
+}
+.header .home{
+  max-width: 50%;
+}
+.home .h1{
+  font-size: 3.4em;
+  font-weight: bolder;
+}
+.header .home p{
+  color: #7d7d7d
+}
+.btn{
+  border: 1px solid #7d7d7d;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+h6 span{
+  
+  border: 1px solid #FE9A04;
+  padding: 4px 8px;
+  font-size: 10px;
+}
+span {
+  color: #FE9A04;
+}
+
+
+
