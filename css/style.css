@@ -7,7 +7,7 @@
 
 .header {
   min-height: 900px;
-  background: url('images/main_page.jpg');
+  background-image: url("/images/main_page.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -48,18 +48,15 @@
 
 .upper-navbar img {
   width: 20px;
-
 }
 
 .upper-navbar a {
   color: #000;
   font-weight: bold;
-
 }
 
 .upper-navbar a:hover {
   text-decoration: none;
-
 }
 
 .main-navbar.navbar-light {
@@ -99,7 +96,7 @@
 }
 
 .small_seo .h1 {
-  font-size: 3.4em;
+  font-size: 3em;
   font-weight: bolder;
 }
 
@@ -128,7 +125,8 @@
 }
 
 
-h6 span {
+h6 span {  
+  display: inline-block;
   margin-top: 100px;
   border: 1px solid #FE9A04;
   color: #FE9A04;
@@ -137,6 +135,4 @@ h6 span {
   border-radius: 2px;
   font-weight: 500;
   line-height: .8;
-  display: inline-block;
-
 }
