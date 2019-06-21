@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'ToucheW03';
+    src: url('ToucheW03-Regular.woff2') format('woff2'),
+    url('ToucheW03-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    font-family:Touche !important;
+}
