@@ -35,29 +35,29 @@
   background-color: #eee
 }
 
-.upper-bar {
+.upper-navbar {
   color: #000;
   max-height: 40px;
   font-size: 0.9em;
   line-height: 35px;
 }
 
-.upper-bar .nav-item.dropdown {
+.upper-navbar .nav-item.dropdown {
   padding-top: 0.4em;
 }
 
-.upper-bar img {
+.upper-navbar img {
   width: 20px;
 
 }
 
-.upper-bar a {
+.upper-navbar a {
   color: #000;
   font-weight: bold;
 
 }
 
-.upper-bar a:hover {
+.upper-navbar a:hover {
   text-decoration: none;
 
 }
@@ -78,36 +78,36 @@
   font-weight: bold;
 }
 
-.main-btn,
-.navbar-light .btn {
+.main-button,
+.navbar-light .button {
   background-color: #FE9A04;
   color: #fff;
   font-size: 0.9em;
   transition: all 0.3s ease-in-out;
 }
 
-.main-btn:hover,
-.navbar-light .btn:hover {
+.main-button:hover,
+.navbar-light .button:hover {
   background-color: #fff;
   border: 1px solid #FE9A04;
   color: #FE9A04;
   font-size: 0.9em
 }
 
-.header .home {
+.header .small_seo {
   max-width: 50%;
 }
 
-.home .h1 {
+.small_seo .h1 {
   font-size: 3.4em;
   font-weight: bolder;
 }
 
-.header .home p {
+.header .small_seo p {
   color: #7d7d7d
 }
 
-.btn {
+.button {
   display: inline-block;
   position: relative;
   cursor: pointer;
