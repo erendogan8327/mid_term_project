@@ -7,7 +7,7 @@
 
 .header {
   min-height: 900px;
-  background-image: url("/images/main_page.jpg");
+  background-image: url("../images/main_page.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -125,7 +125,7 @@
 }
 
 
-h6 span {  
+h6 span {
   display: inline-block;
   margin-top: 100px;
   border: 1px solid #FE9A04;
@@ -135,4 +135,23 @@ h6 span {
   border-radius: 2px;
   font-weight: 500;
   line-height: .8;
+}
+
+@font-face {
+    font-family: 'ToucheW03';
+    src: url('ToucheW03-Regular.woff2') format('woff2'),
+    url('ToucheW03-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    font-family:Touche !important;
+}
+
+#white-text-button {
+    color: #ffffff !important;
+
 }
