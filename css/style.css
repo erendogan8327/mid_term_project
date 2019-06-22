@@ -1,3 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', 'sans-serif';
+}
+
+.header {
+  min-height: 900px;
+  background-image: url("../images/main_page.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.top-links ul li {
+  float: left;
+  position: relative;
+  height: 35px;
+  border-left: 1px solid #eee
+}
+
+.top-links li>a {
+  display: block;
+  padding: 0 12px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 44px;
+  color: #666
+}
+
+.top-links li:hover {
+  background-color: #eee
+}
+
+.upper-navbar {
+  color: #000;
+  max-height: 40px;
+  font-size: 0.9em;
+  line-height: 35px;
+}
+
+.upper-navbar .nav-item.dropdown {
+  padding-top: 0.4em;
+}
+
+.upper-navbar img {
+  width: 20px;
+}
+
+.upper-navbar a {
+  color: #000;
+  font-weight: bold;
+}
+
+.upper-navbar a:hover {
+  text-decoration: none;
+}
+
+.main-navbar.navbar-light {
+  background-color: #fff;
+  border: 1px solid #d7d7d7;
+  box-shadow: 0 1px 15px #d7d7d7;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #FE9A04;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.main-button,
+.navbar-light .button {
+  background-color: #FE9A04;
+  color: #fff;
+  font-size: 0.9em;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-button:hover,
+.navbar-light .button:hover {
+  background-color: #fff;
+  border: 1px solid #FE9A04;
+  color: #FE9A04;
+  font-size: 0.9em
+}
+
+.header .small_seo {
+  max-width: 50%;
+}
+
+.small_seo .h1 {
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+.header .small_seo p {
+  color: #7d7d7d
+}
+
+.button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  outline: 0;
+  white-space: nowrap;
+  margin: 5px;
+  padding: 0 22px;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #FE9A04;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .2)
+}
+
+
+h6 span {
+  display: inline-block;
+  margin-top: 100px;
+  border: 1px solid #FE9A04;
+  color: #FE9A04;
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 2px;
+  font-weight: 500;
+  line-height: .8;
+}
+
 @font-face {
     font-family: 'ToucheW03';
     src: url('ToucheW03-Regular.woff2') format('woff2'),
